@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: chzzk-cc-relay-node
+    runtime: node
+    buildCommand: npm ci
+    startCommand: npm start
+    autoDeploy: true

@@ -1,0 +1,16 @@
+{
+  "name": "chzzk-cc-relay-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stateful Node.js WebSocket Relay Server for CHZZK_CC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "dependencies": {
+    "ws": "^8.21.1"
+  }
+}
